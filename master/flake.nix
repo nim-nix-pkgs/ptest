@@ -11,6 +11,7 @@
   inputs.src-ptest-master.ref   = "refs/heads/master";
   inputs.src-ptest-master.owner = "treeform";
   inputs.src-ptest-master.repo  = "ptest";
+  inputs.src-ptest-master.dir   = "";
   inputs.src-ptest-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
